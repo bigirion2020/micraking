@@ -64,22 +64,6 @@ footer {
   padding: 30px;
 }
 
-.creeper {
-  position: absolute;
-  top: 200px;
-  left: calc(50% + 200px);
-  animation: creeper 1.5s ease-in-out infinite alternate;
-  
-}
-
-@keyframes creeper {
-  0% {
-    transform: translateY(30px);
-  }
-  100% {
-    transform: translateY(-30px);
-  }
-}
 
 
 
