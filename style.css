@@ -33,15 +33,21 @@ h1 {
 }
 
 .topNav ul a {
+  position: relative;
   text-decoration: none;
   color: green;
+  padding: 10px 15px;
   background-color: white;
   border: green 1px solid;
+  transition: all 0.5s ease-in-out;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
 }
 
 .topNav ul a:hover {
   color: white;
   background-color: green;
+  box-shadow: none;
 }
 
 article{
