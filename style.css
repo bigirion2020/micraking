@@ -88,10 +88,10 @@ footer {
 
 @keyframes creeper {
   0% {
-    transform: translateY(-30px) rotate(10deg);
+    transform: translateY(-30px);
   }
   100%{
-    transform: translateY(30px) rotate(-10deg);
+    transform: translateY(30px);
   }
 }
 
