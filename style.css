@@ -33,7 +33,15 @@ h1 {
 }
 
 .topNav ul a {
+  text-decoration: none;
+  color: green;
+  background-color: white;
+  border: green 1px solid;
+}
+
+.topNav ul a:hover {
   color: white;
+  background-color: green;
 }
 
 article{
